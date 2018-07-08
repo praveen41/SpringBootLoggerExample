@@ -1,0 +1,11 @@
+logging.level.org.springframework=DEBUG
+logging.level.com.techielogic=DEBUG
+ 
+#output to a temp_folder/file
+logging.file=C:/tmp/application.log
+ 
+# Logging pattern for the console
+logging.pattern.file= %d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n
+ 	
+# Logging pattern for file
+logging.pattern.console= %d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n
